@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/llCellForArtist"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/heightCell"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivForArtist"
+            android:layout_width="@dimen/widthImageViewCell"
+            android:layout_height="@dimen/heightImageViewCell"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/leftMarginImageViewCell" />
+
+        <TextView
+            android:id="@+id/txtNameArtist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/leftMarginTextViewCell"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/textSize" />
+
+    </LinearLayout>
+
+</RelativeLayout>
